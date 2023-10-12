@@ -5,5 +5,9 @@ var point = {
 }
 
 point.a = undefined;
+console.log(point);
 
-console.log(point)
+
+// delete operator
+delete point.a
+console.log(point);
